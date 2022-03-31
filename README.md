@@ -6,11 +6,13 @@
 - Project Overview
 - Run Project Locally
   - how you installed docker + dependencies (WSL2, for example)
+    - sudo apt install docker.io
   - how to build the container
+    - 
   - how to run the container
   - how to view the project (open a browser...go to ip and port...)
   
-## Part 2 - GitHub Actions and DockerHub  
+### Part 2 - GitHub Actions and DockerHub  
   
 - Update `README.md` in main folder of your repo to include:
 
@@ -23,7 +25,7 @@
 - Configure GitHub Workflow
   - variables to change (repository, etc.)
   
-  ## Part 3 - Deployment
+### Part 3 - Deployment
   
 - Update `README.md` in main folder of your repo to include:
 - Creating a webhook
