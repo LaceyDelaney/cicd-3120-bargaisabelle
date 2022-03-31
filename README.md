@@ -10,6 +10,7 @@
   - how to build the container
     - 
   - how to run the container
+    - sudo docker run -it -v /from_host ubuntu
   - how to view the project (open a browser...go to ip and port...)
   
 ### Part 2 - GitHub Actions and DockerHub  
