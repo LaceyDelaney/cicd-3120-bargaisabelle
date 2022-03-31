@@ -8,10 +8,11 @@
   - how you installed docker + dependencies (WSL2, for example)
     - sudo apt install docker.io
   - how to build the container
-    - 
+    - docker build .
   - how to run the container
     - sudo docker run -it -v /from_host ubuntu
   - how to view the project (open a browser...go to ip and port...)
+    - localhost:8080:80
   
 ### Part 2 - GitHub Actions and DockerHub  
   
