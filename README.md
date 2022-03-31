@@ -12,7 +12,7 @@
   - how to run the container
     - sudo docker run --rm -it -p 8080:80 ubuntu
   - how to view the project (open a browser...go to ip and port...)
-    - localhost:80
+    - localhost:8080
   
 ### Part 2 - GitHub Actions and DockerHub  
   
