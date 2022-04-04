@@ -24,6 +24,10 @@
 
 - Create DockerHub public repo
   - process to create
+    - access DockerHub
+    - select create repo
+    - add name/description
+    - select create
 - Allow DockerHub authentication via CLI using Dockhub credentials
 - Configure GitHub Secrets
   - what credentials are needed - DockerHub credentials (do not state your credentials)
