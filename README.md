@@ -30,13 +30,20 @@
     - add name/description
     - select create
 - Allow DockerHub authentication via CLI using Dockhub credentials
+  - Access account settings and click on security
+  - Create "New Access Token" and select read, write, and delete
+  - Save the token in a secure location for later access
 - Configure GitHub Secrets
   - what credentials are needed - DockerHub credentials (do not state your credentials)
+    - open Docker Hub account settings 
+    - go to Security and click on secrets to hide your username and token
+  - set secrets and secret names
+    - you can refer to them in a YAML file using the .secrets tag and the name of the secret
     - docker hub username (secrets.DOCKER_USERNAME)
     - docker hub token (secrets.DOCKER_TOKEN)
-  - set secrets and secret names
 - Configure GitHub Workflow
   - variables to change (repository, etc.)
+    - adding the Docker Hub secrets (username and password, and the image name)
 
 ```
 name: docker-build-push
