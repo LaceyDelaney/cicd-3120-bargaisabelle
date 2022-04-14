@@ -2,8 +2,11 @@
 
 ### Part 1 - Dockerize it
 
-- Create `README.md` in main folder of your repo that details the following:
-- Project Overview
+- Project Overview 
+  - This project uses Docker Hub and the docker extension on linux machines. Part 1 of the project demonstrates how
+    how to download images, build and run a container, and display an html webpage on the browser. Part 2 shows how
+    to create and use Github Secrets to store Docker information and recall the variables in a YAML file. Part 3
+    deploys a webhook and part 4 diagrams created workflows.
 - Run Project Locally
   - how you installed docker + dependencies (WSL2, for example)
     - sudo apt install docker.io
@@ -20,9 +23,7 @@
 ![port running](port8080.png)
   
 ### Part 2 - GitHub Actions and DockerHub  
-  
-- Update `README.md` in main folder of your repo to include:
-
+ 
 - Create DockerHub public repo
   - process to create
     - access Docker Hub
@@ -76,5 +77,15 @@ jobs:
   
 ### Part 3 - Deployment
   
-- Update `README.md` in main folder of your repo to include:
-- Creating a webhook
+- Container restart script
+  - what it does
+- Webhook task definition file
+  - what it does
+- Setting up a webhook on the server
+  - How you created you own listener
+  - How you installed and are running the [webhook on GitHub](https://github.com/adnanh/webhook)
+- Setting up a notifier in GitHub or DockerHub
+
+### Part 4 - Diagramming
+
+Include a diagram (or diagrams) of your entire workflow. Meaning it should start with a project change / update, the steps that happen in between, and end with the updated version when the server is queried (web page is accessed)
