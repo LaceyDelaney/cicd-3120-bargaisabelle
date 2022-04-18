@@ -6,6 +6,6 @@ RUN apt install -y python3 python3-pip
 
 #EXPOSE 8000:80
 
-COPY ./website.html/ /usr/local/apache2/htdocs/
+COPY html/index.html /usr/local/apache2/htdocs/
 
 EXPOSE 8080
